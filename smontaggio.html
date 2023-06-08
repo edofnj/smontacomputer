@@ -2,20 +2,56 @@
 <html>
 <head>
   <title>smontaggio</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/smontaggio.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="smontaggio.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <ul>
-            <h1 class="title">SMONTA PC</h1>
-            <li class="different scroll"><a href="smontaggio.html">Smontaggio</a></li>
-            <li class="different scroll"><a href="assemblaggio.html">Assemblaggio</a></li>
-            <li class="different scroll"><a href="index.html">Home</a></li>
-          </ul>
-        </nav>
-      </header>
-
+  <header>
+    <nav>
+      <ul>
+      	<h1 class="title">SMONTA PC</h1>
+      	<li class="different scroll"><a href="assemblaggio.html">Assemblaggio</a></li>
+    		<li class="different scroll"><a href="index.html">Home</a></li>
+    	</ul>
+		</nav>
+  </header>
+	<div id="1">
+		<img src="img/IMG_2777.JPG" alt="foto"/>
+		<h3>Iniziamo smontando il coperchio del computer</h3>
+		<button class="pulsante" onclick="handleClick(this.id)" id="1">Prossimo passo</button>
+	</div>
+	<div id="2">
+		<img src="img/IMG_2784.JPG" alt="foto"/>
+		<h3>Rimuovere lettore CD/DVD, Floppy Disk e Hard Disk</h3>
+		<button class="pulsante" onclick="handleClick(this.id)" id="2">Prossimo passo</button>
+	</div>
+	<div id="3">
+		<img src="img/IMG_2791.JPG" alt="foto"/>
+		<h3>Procedere rimuovendo le parti ingombranti, quali mascherina posteriore e supporto Hard Disk e lettore CD/DVD</h3>
+		<button class="pulsante" onclick="handleClick(this.id)" id="3">Prossimo passo</button>
+	</div>
+	<div id="4">
+		<img src="img/IMG_2792.JPG" alt="foto"/>
+		<h3>Rimuovere la scheda grafica</h3>
+		<button class="pulsante" onclick="handleClick(this.id)" id="4">Prossimo passo</button>
+	</div>
+	<div id="5">
+		<img src="img/IMG_2793.JPG" alt="foto"/>
+		<h3>Rimuovere le RAM dai loro alloggiamenti</h3>
+		<button class="pulsante" onclick="handleClick(this.id)" id="5">Prossimo passo</button>
+	</div>
+	<div id="6">
+		<img src="img/IMG_2800.JPG" alt="foto"/>
+		<h3>Rimuovere il cooler della CPU</h3>
+		<button class="pulsante" onclick="handleClick(this.id)" id="6">Prossimo passo</button>
+	</div>
+	<div id="7">
+		<img src="img/IMG_2806.JPG" alt="foto"/>
+		<h3>Svitare la scheda madre dalla carcassa del PC</h3>
+	</div>
+	<div id="conclusione">
+		<h3>La fase di smontaggio del computer è completa!</h3>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
